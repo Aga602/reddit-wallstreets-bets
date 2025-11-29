@@ -4,7 +4,7 @@ Agent that crawls through the wall street bets subreddit and determines market s
 
 ## Prerequisites
 
-- Go 1.21 or later
+- Go 1.24 or later
 
 ## Project Structure
 

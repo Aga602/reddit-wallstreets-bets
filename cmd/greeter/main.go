@@ -4,7 +4,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
 
 	"github.com/Aga602/reddit-wallstreets-bets/internal/greeter"
 )
@@ -15,5 +14,4 @@ func main() {
 
 	g := greeter.New(*name)
 	fmt.Println(g.Greet())
-	os.Exit(0)
 }
